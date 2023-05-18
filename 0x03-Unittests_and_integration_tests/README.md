@@ -39,10 +39,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - All your functions and coroutines must be type-annotated.
 ## Required Files
 `utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+
 <details>
 <summary>Click to show/hide file contents</summary>
-```
-#!/usr/bin/env python3
+
+```#!/usr/bin/env python3
 """Generic utilities for github org client.
 """
 import requests
@@ -122,8 +123,9 @@ def memoize(fn: Callable) -> Callable:
 
 client.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
-<summary>Click to show/hide file contents</summary>
-#!/usr/bin/env python3
+    <summary>Click to show/hide file contents</summary>
+
+```#!/usr/bin/env python3
 """A github org client
 """
 from typing import (
@@ -181,13 +183,14 @@ class GithubOrgClient:
         except KeyError:
             return False
         return has_license
-
+```
 </details>
 
 fixtures.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 <details>
 <summary>Click to show/hide file contents</summary>
-#!/usr/bin/env python3
+
+```#!/usr/bin/env python3
 
 TEST_PAYLOAD = [
   (
@@ -1137,7 +1140,7 @@ TEST_PAYLOAD = [
     ['dagger', 'kratu', 'traceur-compiler', 'firmata.py'],
   )
 ]
-
+```
 </details>
 
 Tasks
