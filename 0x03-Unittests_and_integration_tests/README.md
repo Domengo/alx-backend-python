@@ -125,7 +125,8 @@ client.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webst
 <details>
     <summary>Click to show/hide file contents</summary>
 
-```#!/usr/bin/env python3
+```
+#!/usr/bin/env python3
 """A github org client
 """
 from typing import (
