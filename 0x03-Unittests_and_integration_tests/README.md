@@ -43,7 +43,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 <details>
 <summary>Click to show/hide file contents</summary>
 
-```#!/usr/bin/env python3
+```
+#!/usr/bin/env python3
 """Generic utilities for github org client.
 """
 import requests
@@ -121,7 +122,7 @@ def memoize(fn: Callable) -> Callable:
 ```
 </details>
 
-client.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
+`client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
     <summary>Click to show/hide file contents</summary>
 
@@ -187,11 +188,12 @@ class GithubOrgClient:
 ```
 </details>
 
-fixtures.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
+`fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 <details>
 <summary>Click to show/hide file contents</summary>
 
-```#!/usr/bin/env python3
+```
+#!/usr/bin/env python3
 
 TEST_PAYLOAD = [
   (
