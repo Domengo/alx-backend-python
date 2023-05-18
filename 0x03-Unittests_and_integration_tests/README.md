@@ -41,6 +41,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 `utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 <details>
 <summary>Click to show/hide file contents</summary>
+```
 #!/usr/bin/env python3
 """Generic utilities for github org client.
 """
@@ -118,7 +119,7 @@ def memoize(fn: Callable) -> Callable:
     return property(memoized)
 
 </details>
-
+```
 client.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
 <summary>Click to show/hide file contents</summary>
