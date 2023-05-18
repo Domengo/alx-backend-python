@@ -117,9 +117,9 @@ def memoize(fn: Callable) -> Callable:
         return getattr(self, attr_name)
 
     return property(memoized)
-
-</details>
 ```
+</details>
+
 client.py (or ![download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
 <summary>Click to show/hide file contents</summary>
